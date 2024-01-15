@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.container-title{
+    display: flex;
+    align-items: center;
+}
+.container-title img{
+    width: 13%;
+}
+.container-title h1{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 10px;
+    /* width: 200px; */
+}
+.container-title h1 .travel{
+    color: #FF5400;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-bar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    
+}
+.menu-bar ul li{
+    list-style: none;
+    
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #424247;
+    font-size: 1.08rem;
+}
+.menu-bar ul li:first-child a{
+    color: #FF5400;
+}
+
+
+
+
+
+
+
+
+
+
+
+        /* Hreder Part Responsive */
+
+@media screen and (max-width:600px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-bar ul{
+        flex-direction: column;
+    }
+}

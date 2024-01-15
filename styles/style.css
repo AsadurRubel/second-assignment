@@ -9,6 +9,7 @@
 .container-title{
     display: flex;
     align-items: center;
+    width: 50%;
 }
 .container-title img{
     width: 13%;
@@ -18,9 +19,8 @@
     font-size: 2rem;
     font-weight: 800;
     margin-left: 10px;
-    /* width: 200px; */
 }
-.container-title h1 .travel{
+.container-title h1 span{
     color: #FF5400;
 }
 .container{
@@ -29,6 +29,9 @@
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+}
+.menu-bar{
+    width: 50%;
 }
 .menu-bar ul{
     display: flex;
@@ -50,7 +53,86 @@
 .menu-bar ul li:first-child a{
     color: #FF5400;
 }
+    /* Header Section Style End  */
 
+
+
+.explore{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 500px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.travel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.explore-title{
+    font-size: 4rem;
+    color: #FFF;
+    margin-top: 90px;
+    width: 95%;
+    text-align: center;
+}
+.explore-description{
+    width: 52%;
+    color: #FFF;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
+.button{
+    display: flex;
+    gap: 20px;
+    max-width: 55%;
+    margin: auto;
+    margin-top: 60px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 20%;
+    height: 45px;
+    background-color: #FFF;
+    color: #424247;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.btnn{
+    width: 20%;
+    height: 45px;
+    background-color: #FF5400;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+}
+.btn .bx{
+    font-size: 1.5rem;
+}
+.btnn .bx{
+    font-size: 1.5rem;
+}
 
 
 
@@ -68,7 +150,31 @@
         flex-direction: column;
         align-items: center;
     }
+    .container-title{
+        width: 90%;
+        justify-content: center;
+    }
     .menu-bar ul{
         flex-direction: column;
     }
+        /* Header Responsive End */
+
+    .explore-title{
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+    .explore-description{
+        width: 500px;
+    }
+    .button{
+        flex-direction: column;
+        height: 275px;
+        margin-top: 30px;
+    }
+    .btn, .btnn{
+        width: 90%;
+    }
+
+
+
 }

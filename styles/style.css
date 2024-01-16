@@ -136,7 +136,7 @@
         /* Explore Section Style End  */
 
         /* Popular Tour Style Section Start */
-        
+
 .tour-container{
     max-width: 90%;
     margin: auto;
@@ -183,6 +183,66 @@
 }
         /* Popular Tour Style Section End */
 
+        /* Destination Style Part Start */
+
+.destination-part{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+.choose-destination{
+    color: #131318;
+    font-size: 2.8rem;
+    font-weight: 800;
+    text-align: center;
+}
+.description{
+    max-width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    color: #131318;
+    line-height: 26px;
+    text-align: center;
+}
+.place{
+    margin-top: 40px;
+}
+.maldive{
+    display: grid;
+    grid-template-columns: repeat(2,50% 50%);
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+.maldive img{
+    width: 100%;
+    
+}
+.srilanka{
+    display: grid;
+    grid-template-columns: repeat(3,27% 49% 23%);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.srilanka img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.bangladesh{
+    display: grid;
+    grid-template-columns: repeat(2,42% 58%);
+    gap: 10px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.bangladesh img{
+    width: 100%;
+    height: 100%;
+}
+
+        /* Destination Style Part Start */
 
 
 
@@ -190,7 +250,9 @@
 
 
 
-        /* Hreder Part Responsive */
+
+
+        /* Responsive For Mobile Device...max-width:600px */
 
 @media screen and (max-width:600px) {
     .container{
@@ -206,6 +268,7 @@
     }
         /* Header Responsive End */
 
+        /* Explore Section Responsive Start */
     .explore-title{
         font-size: 3rem;
         margin-top: 20px;
@@ -221,6 +284,9 @@
     .btn, .btnn{
         width: 90%;
     }
+        /* Explore Section Responsive End */
+
+        /* Popular Tour Responsive Start */
     .tour-container{
         flex-direction: column;
         
@@ -231,5 +297,23 @@
     .btn-primary{
         width: 50%;
     }
+        /* Popular Tour Responsive Start */
+
+        /* Destination Responsive Part Start */
+
+    .description{
+        max-width: 100%;
+    }
+    .maldive, 
+    .srilanka,
+    .bangladesh{
+        grid-template-columns: repeat(1,100%);
+       
+    }
+
+        /* Destination Responsive Part End */
+            
+   
+
 
 }

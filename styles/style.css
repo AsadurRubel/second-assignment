@@ -242,7 +242,69 @@
     height: 100%;
 }
 
-        /* Destination Style Part Start */
+        /* Destination Style Part End */
+
+    /* Choose Hotel Section Style Start */
+
+.choose-container{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+.choosen .choose-us{
+    columns: #131318;
+    font-size: 2.8rem;
+    font-weight: 800;
+    text-align: center;
+}
+.card-box{
+    margin-bottom: 60px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.Handpicked{
+    width: 48%;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.World-Class{
+    width: 48%;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.Best-price{
+    width: 50%;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.bx{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.Card-title{
+    color: #131318;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.Cadr-descrip{
+    width: 95%;
+    color: #5A5A5D;
+    line-height: 26px;
+}
+
+        /* Choose Hotel Section Style End */
 
 
 
@@ -312,8 +374,18 @@
     }
 
         /* Destination Responsive Part End */
-            
+
+        /* Choose Hotel Section Responsive Start */
+    .card-box{
+        flex-direction: column;
+    }
+    .Handpicked, 
+    .World-Class,
+    .Best-price{
+        width: 100%;
+    }
    
+    /* Choose Hotel Section Responsive End */
 
 
 }

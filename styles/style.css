@@ -454,6 +454,100 @@
 }
         /* Perfect Place Style End */
 
+    /* Newsletter Section Style Start */
+    
+.Newsletter{
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 60px;
+
+}
+.News{
+    width: 50%;
+    height: 420px;
+    border-radius: 16px;
+    padding: 20px;
+}
+.news-title{
+    color: #131318;
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.news-description{
+    min-width: 300px;
+    color: #5A5A5D;
+    line-height: 1.6rem;
+    margin-bottom: 20px;
+
+}
+hr{
+    height: 2px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 20px;
+}
+.name, .email{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.subscribe{
+    width: 100%;
+    height: 50px;
+    background-color: #FF5400;
+    color: #FFF;
+    font-weight: 800;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+
+}
+.river{
+    background-image: url('../Images/Rectangle\ 8\ \(1\).png');
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 425px;
+   
+}
+.save-up{
+    background-color: #FF5400;
+    width: 44%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    position: relative;
+    top: 63%;
+    left: 56.2%;
+    transform: rotate(-25deg);
+}
+.travel-com{
+    color: #FFF;
+    font-size: 1.4rem;
+}
+.save-up-70{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+    /* Newsletter Section Style End */
+
+
+
+
+
 
 
 
@@ -552,7 +646,24 @@
         max-width: 100%;
     }
     /* Perfect Place Responsive End */
-
-
+    /* Newsletter Section Responsive Start */
+    .Newsletter{
+        flex-direction: column;
+    }
+    .News{
+        width: 100%;
+    }
+    .river{
+        width: 100%;
+    }
+    .save-up{
+        position: relative;
+        top: 303px;
+        left: 298px;
+    }
+    .save-up-70{
+        font-size: 1.5rem;
+    }
+    /* Newsletter Section Responsive End */
 
 }

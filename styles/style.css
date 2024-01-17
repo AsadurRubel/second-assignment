@@ -79,7 +79,7 @@
     background-repeat: no-repeat;
     background-position: center;
     object-fit: cover;
-    height: 500px;
+    height: 100%;
     max-width: 90%;
     margin: auto;
     margin-top: 60px;
@@ -383,7 +383,7 @@
 
 .box1, .box3{
     width: 50%;
-    height: 400px;
+    height: 80%;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
@@ -516,7 +516,7 @@
 }
 
 .watch-mountain{
-    width: 275px;
+    width: 50%;
     text-align: center;
     color: #FFF;
     font-size: 1.4rem;
@@ -556,7 +556,7 @@
 }
 
 .news-description{
-    min-width: 300px;
+    width: 100%;
     color: #5A5A5D;
     line-height: 1.6rem;
     margin-bottom: 20px;
@@ -709,14 +709,15 @@ hr{
         align-items: center; 
     }
     .container-title{
-        width: 80%;
+        width: 100%;
         justify-content: center;
     }
     .container-title h1{
         margin-top: 1px;
+        font-size: 1.8rem;
     }
     .menu-bar ul{
-        display: none; 
+        visibility: hidden; 
     }
     .menu-bar .bx{
         display: block;
@@ -726,7 +727,7 @@ hr{
         /* Header Responsive End */
 
         /* Explore Section Responsive Start */
-
+    
     .explore-title{
         font-size: 3rem;
         margin-top: 20px;
@@ -786,7 +787,7 @@ hr{
     /* Deals And Discount Responsive Start */
 
     .tour-satorini{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .box1, .box2, .box3{
         padding: 15px;
@@ -817,8 +818,8 @@ hr{
     }
     .save-up{
         position: relative;
-        top: 303px;
-        left: 298px;
+        top: 71%;
+        left: 55%;
     }
     .save-up-70{
         font-size: 1.5rem;
